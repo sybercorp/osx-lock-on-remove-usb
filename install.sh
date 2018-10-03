@@ -1,6 +1,6 @@
 #!/bin/sh -eux
 if [ $# -lt 2 ]; then
-	echo 'usage: install.sh <vendor_id> <product_id>'
+	echo 'usage: install.sh <vendor_id without 0x> <product_id without 0x>'
 fi
 vendor_id=$1
 product_id=$2
